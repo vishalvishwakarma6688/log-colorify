@@ -1,0 +1,30 @@
+{
+  "name": "log-colorify",
+  "version": "1.0.0",
+  "description": "Change your logs color",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vishalvishwakarma6688/log-colorify.git"
+  },
+  "keywords": [
+    "console colors",
+    "log colors",
+    "change console log colors"
+  ],
+  "author": "Vishal V <vishalvishwakarma2786@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vishalvishwakarma6688/log-colorify/issues"
+  },
+  "homepage": "https://github.com/vishalvishwakarma6688/log-colorify#readme",
+  "devDependencies": {
+    "typescript": "^5.9.2"
+  },
+  "files": ["lib/**/*"]
+}
